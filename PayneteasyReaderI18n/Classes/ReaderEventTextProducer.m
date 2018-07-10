@@ -5,7 +5,7 @@
 //  Copyright © 2016 payneteasy. All rights reserved.
 //
 
-#import "PNEReaderEvent.h"
+#import <PaynetEasyReader/PNEReaderEvent.h>
 #import "ReaderEventTextProducer.h"
 #import "MiuraEventTextProducer.h"
 #import "SpireEventTextProducer.h"
@@ -22,7 +22,6 @@
         _miura = [[MiuraEventTextProducer alloc] init];
         _spire = [[SpireEventTextProducer alloc] init];
     }
-
     return self;
 }
 

@@ -5,10 +5,10 @@
 //  Copyright © 2016 payneteasy. All rights reserved.
 //
 
-#import "MiuraCardStatusMessage.h"
-#import "MiuraDeviceStatusMessage.h"
-#import "MiuraBatteryStatusResponse.h"
-#import "MiuraResetDeviceResponse.h"
+#import <PaynetEasyReader/MiuraCardStatusMessage.h>
+#import <PaynetEasyReader/MiuraDeviceStatusMessage.h>
+#import <PaynetEasyReader/MiuraBatteryStatusResponse.h>
+#import <PaynetEasyReader/MiuraResetDeviceResponse.h>
 #import "MiuraEventTextProducer.h"
 #import "PayneteasyEventsBundle.h"
 

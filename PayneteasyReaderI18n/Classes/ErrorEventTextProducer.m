@@ -5,13 +5,13 @@
 //  Copyright © 2016 payneteasy. All rights reserved.
 //
 
-#import "PNECardError.h"
+#import <PaynetEasyReader/PNECardError.h>
 #import "ErrorEventTextProducer.h"
 #import "PayneteasyEventsBundle.h"
 
 @implementation ErrorEventTextProducer
 
--(NSString *) textForError:(PNECardError *)aError {
+- (NSString *)textForError:(PNECardError *)aError {
     switch (aError.type) {
         case PNECardErrorType_PARSE_PACKET_ERROR                                   : return LocalizedEventText(@"PNECardErrorType_PARSE_PACKET_ERROR");
 
@@ -120,7 +120,6 @@
         default:
             return aError.errorMessage;
     }
-
-
 }
+
 @end

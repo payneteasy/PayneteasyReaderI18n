@@ -17,6 +17,4 @@
 
 - (NSString *)miuraCardStatus:(id)aMessage;
 
-
-
 @end

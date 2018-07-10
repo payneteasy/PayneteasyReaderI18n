@@ -6,8 +6,8 @@
 //
 
 #import "SpireEventTextProducer.h"
-#import "SpireStatusReport49Event.h"
 #import "PayneteasyEventsBundle.h"
+#import <PaynetEasyReader/SpireStatusReport49Event.h>
 
 @implementation SpireEventTextProducer
 
@@ -57,4 +57,5 @@
             return LocalizedEventText(@"SpireStatusType_Unknown");
     }
 }
+
 @end

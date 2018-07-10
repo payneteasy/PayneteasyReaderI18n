@@ -7,9 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class PNEReaderEvent;
+
 @interface ReaderEventTextProducer : NSObject
 
-
-- (NSString *) textFor:(PNEReaderEvent *)aEvent;
+- (NSString *)textFor:(PNEReaderEvent *)aEvent;
 
 @end

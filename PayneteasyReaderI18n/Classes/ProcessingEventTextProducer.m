@@ -6,9 +6,9 @@
 //
 
 #import "ProcessingEventTextProducer.h"
-#import "PaynetStatusResponse.h"
-#import "PNEProcessingEvent.h"
 #import "PayneteasyEventsBundle.h"
+#import <PaynetEasyReader/PaynetStatusResponse.h>
+#import <PaynetEasyReader/PNEProcessingEvent.h>
 
 @implementation ProcessingEventTextProducer
 
@@ -54,4 +54,5 @@
     }
     return nil;
 }
+
 @end

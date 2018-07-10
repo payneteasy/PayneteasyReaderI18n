@@ -7,8 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class PNECardError;
+
 @interface ErrorEventTextProducer : NSObject
 
--(NSString *) textForError:(PNECardError *)aError;
+- (NSString *)textForError:(PNECardError *)aError;
 
 @end

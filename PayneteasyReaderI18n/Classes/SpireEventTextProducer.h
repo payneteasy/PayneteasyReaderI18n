@@ -10,4 +10,5 @@
 @interface SpireEventTextProducer : NSObject
 
 - (NSString *)statusReport:(id)aMessage;
+
 @end

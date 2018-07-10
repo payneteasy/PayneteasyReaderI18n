@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.public_header_files   = 'PayneteasyReaderI18n/Classes/*.h'
   s.source_files          = 'PayneteasyReaderI18n/Classes/*.{h,m}'
   s.resource_bundle 	  = { "PayneteasyReaderEvents" => ["PayneteasyReaderI18n/Resources/*.lproj/*.strings"] }
+  s.dependency  'PaynetEasyReader'
 end
