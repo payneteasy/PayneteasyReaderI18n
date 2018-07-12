@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B27122A4CB8893527C94C3 /* Pods_PayneteasyReaderI18n.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB65F5AFF8C97921C1C31D2 /* Pods_PayneteasyReaderI18n.framework */; };
+		11BAD0FFC86C31B776BF3E30 /* Pods_PayneteasyReaderI18n.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16681EA77FDDB96B4424F28D /* Pods_PayneteasyReaderI18n.framework */; };
 		A55D53E420EBD35000F85C46 /* PayneteasyReaderEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55D53E620EBD35000F85C46 /* PayneteasyReaderEvents.strings */; };
-		A57632C520EB77C1002B8496 /* MiuraEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B420EB77BF002B8496 /* MiuraEventTextProducer.h */; };
+		A57632C520EB77C1002B8496 /* MiuraEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B420EB77BF002B8496 /* MiuraEventTextProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A57632C620EB77C1002B8496 /* MiuraEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632B520EB77C0002B8496 /* MiuraEventTextProducer.m */; };
-		A57632C720EB77C1002B8496 /* ErrorEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B620EB77C0002B8496 /* ErrorEventTextProducer.h */; };
-		A57632C820EB77C1002B8496 /* ProcessingEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B720EB77C0002B8496 /* ProcessingEventTextProducer.h */; };
-		A57632C920EB77C1002B8496 /* SpireEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B820EB77C0002B8496 /* SpireEventTextProducer.h */; };
+		A57632C720EB77C1002B8496 /* ErrorEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B620EB77C0002B8496 /* ErrorEventTextProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57632C820EB77C1002B8496 /* ProcessingEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B720EB77C0002B8496 /* ProcessingEventTextProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57632C920EB77C1002B8496 /* SpireEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B820EB77C0002B8496 /* SpireEventTextProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A57632CB20EB77C1002B8496 /* ErrorEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632BC20EB77C0002B8496 /* ErrorEventTextProducer.m */; };
 		A57632CC20EB77C1002B8496 /* ProcessingEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632BD20EB77C0002B8496 /* ProcessingEventTextProducer.m */; };
 		A57632CD20EB77C1002B8496 /* ReaderEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632BE20EB77C0002B8496 /* ReaderEventTextProducer.m */; };
-		A57632D020EB77C1002B8496 /* ReaderEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632C320EB77C1002B8496 /* ReaderEventTextProducer.h */; };
+		A57632D020EB77C1002B8496 /* ReaderEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632C320EB77C1002B8496 /* ReaderEventTextProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A57632D120EB77C1002B8496 /* SpireEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632C420EB77C1002B8496 /* SpireEventTextProducer.m */; };
-		A58ECC1B20EE63F1006AF458 /* PayneteasyEventsBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = A58ECC1920EE63F1006AF458 /* PayneteasyEventsBundle.h */; };
+		A58ECC1B20EE63F1006AF458 /* PayneteasyEventsBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = A58ECC1920EE63F1006AF458 /* PayneteasyEventsBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A58ECC1C20EE63F1006AF458 /* PayneteasyEventsBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ECC1A20EE63F1006AF458 /* PayneteasyEventsBundle.m */; };
 		A58ECC1E20EE7A61006AF458 /* PayneteasyReaderI18n.h in Headers */ = {isa = PBXBuildFile; fileRef = A58ECC1D20EE7A61006AF458 /* PayneteasyReaderI18n.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16681EA77FDDB96B4424F28D /* Pods_PayneteasyReaderI18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayneteasyReaderI18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCB220218CA6C7BC9374BAB /* Pods-PayneteasyReaderI18n.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayneteasyReaderI18n.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayneteasyReaderI18n/Pods-PayneteasyReaderI18n.debug.xcconfig"; sourceTree = "<group>"; };
 		A55D53E520EBD35000F85C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PayneteasyReaderEvents.strings; sourceTree = "<group>"; };
 		A55D53E720EBD35100F85C46 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/PayneteasyReaderEvents.strings; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		A58ECC1920EE63F1006AF458 /* PayneteasyEventsBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayneteasyEventsBundle.h; sourceTree = "<group>"; };
 		A58ECC1A20EE63F1006AF458 /* PayneteasyEventsBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayneteasyEventsBundle.m; sourceTree = "<group>"; };
 		A58ECC1D20EE7A61006AF458 /* PayneteasyReaderI18n.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayneteasyReaderI18n.h; sourceTree = "<group>"; };
-		BBB65F5AFF8C97921C1C31D2 /* Pods_PayneteasyReaderI18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayneteasyReaderI18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22AB5B74194B3EF0F4EF47E /* Pods-PayneteasyReaderI18n.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayneteasyReaderI18n.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayneteasyReaderI18n/Pods-PayneteasyReaderI18n.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B27122A4CB8893527C94C3 /* Pods_PayneteasyReaderI18n.framework in Frameworks */,
+				11BAD0FFC86C31B776BF3E30 /* Pods_PayneteasyReaderI18n.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +127,7 @@
 		E284396F4A869DC5566A1042 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BBB65F5AFF8C97921C1C31D2 /* Pods_PayneteasyReaderI18n.framework */,
+				16681EA77FDDB96B4424F28D /* Pods_PayneteasyReaderI18n.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,7 +156,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A57632B120EB7712002B8496 /* Build configuration list for PBXNativeTarget "PayneteasyReaderI18n" */;
 			buildPhases = (
-				3BD71B172634500B4CD5C3D5 /* [CP] Check Pods Manifest.lock */,
 				A57632A420EB7712002B8496 /* Sources */,
 				A57632A520EB7712002B8496 /* Frameworks */,
 				A57632A620EB7712002B8496 /* Headers */,
@@ -213,27 +212,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3BD71B172634500B4CD5C3D5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PayneteasyReaderI18n-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A57632A420EB7712002B8496 /* Sources */ = {
@@ -394,6 +372,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PayneteasyReaderI18n/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,6 +402,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PayneteasyReaderI18n/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
