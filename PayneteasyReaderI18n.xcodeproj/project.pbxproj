@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11BAD0FFC86C31B776BF3E30 /* Pods_PayneteasyReaderI18n.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16681EA77FDDB96B4424F28D /* Pods_PayneteasyReaderI18n.framework */; };
 		A55D53E420EBD35000F85C46 /* PayneteasyReaderEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55D53E620EBD35000F85C46 /* PayneteasyReaderEvents.strings */; };
 		A57632C520EB77C1002B8496 /* MiuraEventTextProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = A57632B420EB77BF002B8496 /* MiuraEventTextProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A57632C620EB77C1002B8496 /* MiuraEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632B520EB77C0002B8496 /* MiuraEventTextProducer.m */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16681EA77FDDB96B4424F28D /* Pods_PayneteasyReaderI18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayneteasyReaderI18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCB220218CA6C7BC9374BAB /* Pods-PayneteasyReaderI18n.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayneteasyReaderI18n.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayneteasyReaderI18n/Pods-PayneteasyReaderI18n.debug.xcconfig"; sourceTree = "<group>"; };
 		A55D53E520EBD35000F85C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PayneteasyReaderEvents.strings; sourceTree = "<group>"; };
 		A55D53E720EBD35100F85C46 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/PayneteasyReaderEvents.strings; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11BAD0FFC86C31B776BF3E30 /* Pods_PayneteasyReaderI18n.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +124,6 @@
 		E284396F4A869DC5566A1042 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				16681EA77FDDB96B4424F28D /* Pods_PayneteasyReaderI18n.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
