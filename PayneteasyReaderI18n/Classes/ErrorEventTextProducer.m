@@ -67,6 +67,8 @@
 
         case PNECardErrorType_USE_ICC                                              : return LocalizedEventText(@"PNECardErrorType_USE_ICC");
 
+        case PNECardErrorType_TERMINAL_CONNECTION_LOST                             : return LocalizedEventText(@"PNECardErrorType_TERMINAL_CONNECTION_LOST");
+
         case PNECardErrorType_HARDWARE_ERROR                                       : return LocalizedEventText(@"PNECardErrorType_HARDWARE_ERROR");
 
         case PNECardErrorType_SPIRE_GENERAL_FAILURE                                : return LocalizedEventText(@"PNECardErrorType_SPIRE_GENERAL_FAILURE");

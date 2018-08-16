@@ -130,6 +130,7 @@
 "PNECardErrorType_NO_APPLICATIONS" = "Нет приложений на карте. Транзакция должна быть выполнена с использованием ICC или MSR";
 "PNECardErrorType_TRANSACTION_NOT_POSSIBLE" = "Транзакция не представляется возможным: Транзакция должна быть выполнена с использованием ICC, MSR или другой карты";
 "PNECardErrorType_USE_ICC" = "Транзакция должна быть выполнена с использованием чипованной карты";
+"PNECardErrorType_TERMINAL_CONNECTION_LOST" = "Потеряна связь с терминалом" ;
 "PNECardErrorType_HARDWARE_ERROR" = "Аппаратная ошибка";
 "PNECardErrorType_SPIRE_GENERAL_FAILURE" = "(mPOS) Общий сбой";
 "PNECardErrorType_SPIRE_CHIP_APPLICATION_SELECTION_FAILURE" = "(Карта) Ошибка выбора приложения";

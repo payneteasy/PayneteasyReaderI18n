@@ -127,6 +127,7 @@
 "PNECardErrorType_NO_APPLICATIONS" = "No applications for the transaction conditions: Transaction should be performed using ICC or MSR" ;
 "PNECardErrorType_TRANSACTION_NOT_POSSIBLE" = "Transaction not possible: Transaction should be performed using ICC, MSR or another Card" ;
 "PNECardErrorType_USE_ICC" = "The card asked for Chip interface: Transaction should be performed using ICC" ;
+"PNECardErrorType_TERMINAL_CONNECTION_LOST" = "Connection to terminal is lost" ;
 "PNECardErrorType_HARDWARE_ERROR" = "Hardware error" ;
 "PNECardErrorType_SPIRE_GENERAL_FAILURE" = "(mPOS) General Failure" ;
 "PNECardErrorType_SPIRE_CHIP_APPLICATION_SELECTION_FAILURE" = "(Chip) Application Selection Failure" ;
