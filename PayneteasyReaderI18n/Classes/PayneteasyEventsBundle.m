@@ -13,10 +13,12 @@
     static dispatch_once_t onceInput;
     static NSBundle *bundle;
     dispatch_once(&onceInput, ^{
-        bundle = [NSBundle bundleWithIdentifier:@"com.payneteasy.PayneteasyReaderI18n"];
+        bundle = [NSBundle mainBundle];
+        if (![bundle pathForResource:@"PayneteasyReaderEvents" ofType:@"strings"]) {
+            bundle = [NSBundle bundleWithPath:[bundle.resourcePath stringByAppendingPathComponent:@"PayneteasyReaderEvents.bundle"]];
+        }
         if (!bundle) {
-            NSString *bundlePath = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"PayneteasyReaderEvents.bundle"];
-            bundle = [NSBundle bundleWithPath:bundlePath];
+            bundle = [NSBundle bundleWithIdentifier:@"com.payneteasy.PayneteasyReaderI18n"];
         }
     });
     return bundle;
