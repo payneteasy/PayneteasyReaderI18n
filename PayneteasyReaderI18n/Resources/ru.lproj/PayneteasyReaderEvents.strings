@@ -40,7 +40,7 @@
 
 "PaynetStatusTypeApproved" = "ОДОБРЕНО";
 "PaynetStatusTypeDeclined" = "Отклонено";
-"PaynetStatusTypeError" = "Ошибка, обратитесь в службу поддержки";
+"PaynetStatusTypeError" = "Ошибка при обработке платежа. Деньги не списаны.";
 "PaynetStatusTypeFiltered" = "Отклонено";
 "PaynetStatusTypeProcessing" = "Обработка...";
 "PaynetStatusTypeUnknown" = "Ошибка, обратитесь в службу поддержки";
