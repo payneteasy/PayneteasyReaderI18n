@@ -38,7 +38,7 @@
 
 "PaynetStatusTypeApproved" = "APPROVED";
 "PaynetStatusTypeDeclined" = "DECLINED";
-"PaynetStatusTypeError" = "ERROR, Contact Your Support";
+"PaynetStatusTypeError" = "Error while processing the payment. Money have not been withdrawn.";
 "PaynetStatusTypeFiltered" = "DECLINED";
 "PaynetStatusTypeProcessing" = "Processing ...";
 "PaynetStatusTypeUnknown" = "ERROR, Contact Your Support";
