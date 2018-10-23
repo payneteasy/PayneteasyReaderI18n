@@ -20,7 +20,7 @@
 		A57632D120EB77C1002B8496 /* SpireEventTextProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = A57632C420EB77C1002B8496 /* SpireEventTextProducer.m */; };
 		A58ECC1B20EE63F1006AF458 /* PayneteasyEventsBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = A58ECC1920EE63F1006AF458 /* PayneteasyEventsBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A58ECC1C20EE63F1006AF458 /* PayneteasyEventsBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = A58ECC1A20EE63F1006AF458 /* PayneteasyEventsBundle.m */; };
-		A58ECC1E20EE7A61006AF458 /* PayneteasyReaderI18n.h in Headers */ = {isa = PBXBuildFile; fileRef = A58ECC1D20EE7A61006AF458 /* PayneteasyReaderI18n.h */; };
+		A58ECC1E20EE7A61006AF458 /* PayneteasyReaderI18n.h in Headers */ = {isa = PBXBuildFile; fileRef = A58ECC1D20EE7A61006AF458 /* PayneteasyReaderI18n.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,10 +138,10 @@
 				A57632C920EB77C1002B8496 /* SpireEventTextProducer.h in Headers */,
 				A57632C520EB77C1002B8496 /* MiuraEventTextProducer.h in Headers */,
 				A57632D020EB77C1002B8496 /* ReaderEventTextProducer.h in Headers */,
-				A58ECC1E20EE7A61006AF458 /* PayneteasyReaderI18n.h in Headers */,
 				A57632C720EB77C1002B8496 /* ErrorEventTextProducer.h in Headers */,
 				A57632C820EB77C1002B8496 /* ProcessingEventTextProducer.h in Headers */,
 				A58ECC1B20EE63F1006AF458 /* PayneteasyEventsBundle.h in Headers */,
+				A58ECC1E20EE7A61006AF458 /* PayneteasyReaderI18n.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
