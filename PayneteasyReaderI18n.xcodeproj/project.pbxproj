@@ -24,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8CCB220218CA6C7BC9374BAB /* Pods-PayneteasyReaderI18n.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayneteasyReaderI18n.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayneteasyReaderI18n/Pods-PayneteasyReaderI18n.debug.xcconfig"; sourceTree = "<group>"; };
 		A55D53E520EBD35000F85C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PayneteasyReaderEvents.strings; sourceTree = "<group>"; };
 		A55D53E720EBD35100F85C46 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/PayneteasyReaderEvents.strings; sourceTree = "<group>"; };
 		A57632A920EB7712002B8496 /* PayneteasyReaderI18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PayneteasyReaderI18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +41,6 @@
 		A58ECC1920EE63F1006AF458 /* PayneteasyEventsBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayneteasyEventsBundle.h; sourceTree = "<group>"; };
 		A58ECC1A20EE63F1006AF458 /* PayneteasyEventsBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayneteasyEventsBundle.m; sourceTree = "<group>"; };
 		A58ECC1D20EE7A61006AF458 /* PayneteasyReaderI18n.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayneteasyReaderI18n.h; sourceTree = "<group>"; };
-		E22AB5B74194B3EF0F4EF47E /* Pods-PayneteasyReaderI18n.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayneteasyReaderI18n.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayneteasyReaderI18n/Pods-PayneteasyReaderI18n.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +57,6 @@
 		59A13B03B67CB7664ADCC233 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8CCB220218CA6C7BC9374BAB /* Pods-PayneteasyReaderI18n.debug.xcconfig */,
-				E22AB5B74194B3EF0F4EF47E /* Pods-PayneteasyReaderI18n.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -358,7 +354,6 @@
 		};
 		A57632B220EB7712002B8496 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CCB220218CA6C7BC9374BAB /* Pods-PayneteasyReaderI18n.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -388,7 +383,6 @@
 		};
 		A57632B320EB7712002B8496 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E22AB5B74194B3EF0F4EF47E /* Pods-PayneteasyReaderI18n.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
