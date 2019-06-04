@@ -20,6 +20,16 @@
         if (!bundle) {
             bundle = [NSBundle bundleWithIdentifier:@"com.payneteasy.PayneteasyReaderI18n"];
         }
+        if (!bundle) {
+            NSArray *arrayFrameworks = [NSBundle allFrameworks];
+            for (NSBundle *b in arrayFrameworks) {
+                NSLog(@"bundleIdentifier: %@", b.bundleIdentifier);
+                if ([b.bundleIdentifier hasSuffix:@"PayneteasyReaderI18n"]) {
+                    bundle = [NSBundle bundleWithPath:[b.resourcePath stringByAppendingPathComponent:@"PayneteasyReaderEvents.bundle"]];
+                    break;
+                }
+            }
+        }
     });
     return bundle;
 }
