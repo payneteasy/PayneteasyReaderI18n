@@ -14,7 +14,7 @@
     static NSBundle *bundle;
     dispatch_once(&onceInput, ^{
         bundle = [NSBundle mainBundle];
-        if (![bundle pathForResource:@"PayneteasyReaderEvents" ofType:@"strings"]) {
+        if (bundle && ![bundle pathForResource:@"PayneteasyReaderEvents" ofType:@"strings"]) {
             bundle = [NSBundle bundleWithPath:[bundle.resourcePath stringByAppendingPathComponent:@"PayneteasyReaderEvents.bundle"]];
         }
         if (!bundle) {
@@ -23,7 +23,6 @@
         if (!bundle) {
             NSArray *arrayFrameworks = [NSBundle allFrameworks];
             for (NSBundle *b in arrayFrameworks) {
-                NSLog(@"bundleIdentifier: %@", b.bundleIdentifier);
                 if ([b.bundleIdentifier hasSuffix:@"PayneteasyReaderI18n"]) {
                     bundle = [NSBundle bundleWithPath:[b.resourcePath stringByAppendingPathComponent:@"PayneteasyReaderEvents.bundle"]];
                     break;
