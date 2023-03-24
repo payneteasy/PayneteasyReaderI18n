@@ -1,3 +1,3 @@
 # install carthage: brew install carthage
 
-carthage update --platform iOS
+carthage update --platform iOS --use-xcframeworks
