@@ -17,3 +17,5 @@ DerivedData
 .idea/
 Podfile.lock
 Pods/*
+Cartfile.resolved
+Carthage/*

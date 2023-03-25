@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'PayneteasyReaderI18n'
-  s.version               = '1.0.9'
+  s.version               = '1.0.9-2'
   s.summary               = 'PayneteasyReaderI18n is a library for payneteasy events localization.'
   s.license               = { :type => 'APACHE', :file => 'LICENSE' }
   s.homepage              = 'https://www.payneteasy.com'
