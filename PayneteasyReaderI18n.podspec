@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'PayneteasyReaderI18n'
-  s.version               = '1.0.9-2'
+  s.version               = '1.0.9-3'
   s.summary               = 'PayneteasyReaderI18n is a library for payneteasy events localization.'
   s.license               = { :type => 'APACHE', :file => 'LICENSE' }
   s.homepage              = 'https://www.payneteasy.com'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.frameworks            = 'Foundation'
   s.requires_arc          = true
   s.platform              = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.public_header_files   = 'PayneteasyReaderI18n/Classes/*.h'
   s.source_files          = 'PayneteasyReaderI18n/Classes/*.{h,m}'
   s.resource_bundle 	  = { "PayneteasyReaderEvents" => ["PayneteasyReaderI18n/Resources/*.lproj/*.strings"] }
